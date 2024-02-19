@@ -1,0 +1,75 @@
+.card {
+  background-color: rgb(255, 255, 255);
+  max-width: 1200px;
+  margin: 100px auto 0 auto;
+}
+
+.card__content {
+  height: 400px;
+}
+
+.card__header {
+  display: flex;
+  align-items: center;
+}
+
+.card__tickets {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.card__title {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.card__main {
+  display: flex;
+  align-items: center;
+}
+
+.average {
+  display: flex;
+  align-items: center;
+}
+
+.average__title {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #667985;
+}
+
+.average__total {
+  display: flex;
+  align-items: flex-end;
+}
+
+.average__digits {
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 72px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #f38b00;
+}
+
+.average__currency {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #667985;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
